@@ -37,7 +37,7 @@ class HandlePhpCurl {
 
                 if ($parameter) {
                     $str = http_build_query($parameter);
-                    $apiUrl = $apiUrl.'&'.$str;
+                    $apiUrl = $apiUrl.'?'.$str;
                 }
                 $res = self::getUrl($apiUrl);
                 break;
