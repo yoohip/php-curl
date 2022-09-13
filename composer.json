@@ -1,0 +1,19 @@
+{
+    "name": "yoohip/php-curl",
+    "description": "this a php curl",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yoohip\\PhpCurl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yoohip",
+            "email": "yoohip@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
